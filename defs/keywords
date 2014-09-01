@@ -22,9 +22,11 @@ class, {keyword_class, keyword_class}, EXPR_CLASS
 def, {keyword_def, keyword_def}, EXPR_FNAME
 defined?, {keyword_defined, keyword_defined}, EXPR_ARG
 do, {keyword_do, keyword_do}, EXPR_BEG
+dude, {keyword_do, keyword_do}, EXPR_BEG
 else, {keyword_else, keyword_else}, EXPR_BEG
 elsif, {keyword_elsif, keyword_elsif}, EXPR_VALUE
 end, {keyword_end, keyword_end}, EXPR_END
+bro, {keyword_end, keyword_end}, EXPR_END
 ensure, {keyword_ensure, keyword_ensure}, EXPR_BEG
 false, {keyword_false, keyword_false}, EXPR_END
 for, {keyword_for, keyword_for}, EXPR_VALUE
